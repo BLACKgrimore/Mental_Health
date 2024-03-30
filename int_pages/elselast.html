@@ -1,15 +1,91 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Else Result</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Example</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .first{
+        width: 95%;
+        height: 35vh;
+        margin: 0.8rem 2rem 0 2rem;
+        outline-width: 5px;
+        outline-color: #1aeebc;
+        outline-style: solid;
+        /* border: 20px; */
+        /* border-color: aqua; */
+        border-radius: 20px;
+    }
+    .second{
+        width: 30%;
+        height: 8vh;
+        margin: 1rem 1rem 1rem 2rem;
+        /* outline-width: 5px; */
+        outline-color: #1aeebc;
+        outline-style: solid;
+        border-radius: 0px 40px 0px 40px;
+        margin-left: 35%;
+    }
+    .last{
+        width: 95%;
+        height: 50vh;
+        margin: 0.8rem 2rem 0 2rem;
+        outline-width: 5px;
+        outline-color: #1aeebc;
+        outline-style: solid;
+        /* border: 20px; */
+        /* border-color: aqua; */
+        border-radius: 20px;
+    }
+  </style>
 </head>
 <body>
-    <a href="else3.html" class="display-5 m-4"><i class="bi bi-arrow-left-circle"></i></a>
-    <h1>Else Result</h1>
+  <div class="container-fluid">
+
+    <div class="row first">
+        <div class="col">
+         <h2 class="ml-4">Other Solutions</h2>
+         <ul>
+            <li class="h5">Healthy Diet</li>
+            <li class="h5">Regular Exercise</li>
+            <li class="h5">Mindfulness and Relaxation Techniques</li>
+            <li class="h5">Social Connections</li>
+            <li class="h5">Seek Professional Support</li>
+          </ul>
+       </div>
+    </div>
+
+    <div class="row second">
+        <div class="col">
+           <h2 class="text-center">Our Preference</h2>
+        </div>
+    </div>
+
+    <div class="row last">
+        <div class="col m-3">
+          <div class="row">
+            <div class="col-md-6">
+              <div style="height: 260px; background-color: lightblue; border-radius: 20px;">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/EeNI6juL3SQ" frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div style="height: 260px; background-color: lightcoral; border-radius: 20px;">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/vix0NbikS5o" frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+
+  <button onclick="window.location.href = '../index.html'" type="button" class="btn btn-success btn-lg m-3 rounded-pill w-25 ml-5">Landing Page</button>
+  
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
